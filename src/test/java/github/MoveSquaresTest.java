@@ -24,7 +24,7 @@ public class MoveSquaresTest {
     }
 
     @Test
-    void MoveSquares() {
+    void moveSquares() {
         // open page internet.herokuapp
         open("https://the-internet.herokuapp.com/drag_and_drop");
         //find squares A & B

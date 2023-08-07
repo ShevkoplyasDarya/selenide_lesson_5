@@ -24,7 +24,7 @@ public class HoverTest {
     }
 
     @Test
-    void HoverSolutions() {
+    void hoverSolutions() {
         open("https://github.com");
         //hover on Solutions
         $(".header-menu-wrapper").$(byText("Solutions")).hover();
